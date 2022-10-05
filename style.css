@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----------------------------------------------------------------
+CLASSES BASES START
+*/
+.titulos{
+    text-align: center;
+    margin: 2rem;
+}
+.creditos{
+    text-align: center;
+    font-weight: 700;
+    width: 300px;
+    height: auto;
+    margin:auto;
+    margin-top: 2rem;
+}
+.boton_azul{
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(159, 210, 252) 1px;
+    color:black;
+    padding: 0.5rem;
+    width: max-content;
+    height: max-content;
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+.boton_azul:hover{
+    color:white;
+    background-color: blue;
+    cursor: pointer;
+
+}
+.boton{
+    text-align: center;
+}
+.clase_secciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:fit-content;
+    margin-left: 66vh;
+    text-align: center;
+}
+/*----------------------------------------------------------------
+CLASSES BASES END
+*/
+.puz-container{
+    border-radius: 15px;
+    width: 320px;
+    overflow: hidden;
+    box-shadow: 2px 5px 11px 5;
+}
+body{
+    background-color: rgb(159, 210, 252);
+}

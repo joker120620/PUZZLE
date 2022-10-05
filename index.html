@@ -4,28 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Talento coex DR">
+    <meta name="author" content="JUAN DAVID TOLOZA ORTEGA">
     <meta name="description" content="diseño web con coex">
     <meta name="keywords" content="aprende logica, html, css, javascript, bd, vue.js, laravel"/>
     <title>puzzle</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!--encabezado-->
     <header>
-        <h1>THE PUZZLE</h1>
+        <h1 class="titulos">THE PUZZLE</h1>
     </header>
-    <main>
-        <section >
+     <!--contenido-->
+    <main >
+        <section class="clase_secciones">
+            <table class="puz-container">
+                <!--fila 1-->
+                <tr>
+                <td><img id="img_0" src="images/i1.jpg" onclick="seleccionar(0)"></td>  
+                <td><img id="img_1" src="images/i2.jpg" onclick="seleccionar(1)"></td>
+                <td><img id="img_2" src="images/i3.jpg" onclick="seleccionar(2)"></td>
+                </tr>
+                
+                <!--fila 2-->
+                <tr>
+                <td><img id="img_3" src="images/i4.jpg" onclick="seleccionar(3)"></td>
+                <td><img id="img_4" src="images/i5.jpg" onclick="seleccionar(4)"></td>
+                <td><img id="img_5" src="images/i6.jpg" onclick="seleccionar(5)"></td>
+                </tr>
+                
+                <!--fila 3-->
+                <tr>
+                <td><img id="img_6" src="images/i7.jpg" onclick="seleccionar(6)"></td>
+                <td><img id="img_7" src="images/i8.jpg" onclick="seleccionar(7)"></td>
+                <td><img id="img_8" src="images/i9.jpg" onclick="seleccionar(8)"></td>
+                </tr>
+
             
-        </section>
-        <section >
             
-        </section>
+            </table>
+           
+            </section >
+            <section class="boton"> 
+                <input type="button" id="btnComprobar" value="Comprobar" class="boton_azul">
+            </section>
         
         
     </main>
+     <!--pie de pagina-->
     <footer>
-        <section>
-            <p class="creditos">Desarrolado por: Juan David Toloza Ortega</p>
+        <section class="clase_secciones">
+            <p class="creditos">Desarrolado por Talento COEX: Juan David Toloza Ortega</p>
         </section>
     </footer>
 
